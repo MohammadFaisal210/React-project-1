@@ -1,0 +1,62 @@
+#textS{
+  text-decoration:none;
+}
+.imgSize{
+  width:auto;
+  height: 170px;
+  /* margin: auto; */
+}
+.cart_btn{
+  width: 75px;
+  height: 35px;
+transform: translate(100%, 100%);
+transition: all 1s linear !important;
+}
+.card:hover .cart_btn{
+transform: translate(0,0);
+margin: 10px;
+}
+.cardImg{
+  transition: all 1s linear;
+}
+.cardImg:hover{
+  transform: scale(1.2);
+
+}
+.card{
+  /* outline: none; */
+  overflow: hidden;
+  border-color: transparent;
+  transition: all 1s linear;
+}
+.card:hover{
+  border:0.0rem solid rgba(0, 0, 0, 0.2);
+  box-shadow:2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.cart_btn:hover{
+background-color: white !important;
+color: blue !important;
+}
+.modalWrapper{
+  position: fixed;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+#modal{
+  background: white;
+}
+.btn-black{
+  background: transparent;
+  border:1px solid black !important;
+  font-size: 22px;
+  color: black;
+}
+.cartHeight{
+  height:40vw;
+}
